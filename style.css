@@ -1,31 +1,46 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
+    background-image: url('https://2.bp.blogspot.com/-JpZ8B5N6Gbo/VqXyGe33xbI/AAAAAAAAC7A/6Y7Orrv_71s/s640/__cat__by_burcinesin-d1attqw.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
     padding: 50px;
+    height: 100vh; /* Memastikan body mengisi seluruh tinggi layar */
+    margin: 0; /* Menghapus margin default */
 }
 
 .container {
-    background-color: #fff;
+    background-color: rgba(255, 182, 193, 0.8); /* Mengubah latar belakang menjadi pink lembut */
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-    color: #ff69b4;
+    color: #ff69b4; /* Ubah warna h1 menjadi pink cerah */
 }
 
 button {
     margin: 10px;
     padding: 10px 20px;
     border: none;
-    background-color: #ff69b4;
+    background-color: #ff69b4; /* Mengubah warna tombol menjadi pink cerah */
     color: white;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #ff1493;
+    background-color: #ff1493; /* Warna saat hover */
+}
+
+.cat-image {
+    width: 100px;
+    transition: transform 0.3s;
+}
+
+.cat-image:hover {
+    transform: scale(1.1);
 }
