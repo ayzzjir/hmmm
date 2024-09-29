@@ -3,21 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>What u fav food</title>
+    <title>Makanan Favoritmu</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <h1>Maen Yokk EKAAA!!!!</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPjPkJv2vj-lyNffW31JD7Fc8LgJmCvi6AXw&s" alt="Kucing Lucu" class="cat-image">
         <div id="pertanyaan">
-            <p id="teksPertanyaan">Pertanyaan 1: Lo mau makanan apa?</p>
+            <p id="teksPertanyaan">Pertanyaan 1: Lo mau makan apa?</p>
             <button id="pilihan1" onclick="pilihJawaban(0)">Ayam Goreng</button>
             <button id="pilihan2" onclick="pilihJawaban(1)">Gorengan</button>
-            <button id="pilihan2" onclick="pilihJawaban(2)">Burger</button>
+            <button id="pilihan3" onclick="pilihJawaban(2)">Burger</button>
+            <button id="pilihan4" onclick="pilihJawaban(3)">Snack</button>
         </div>
         <div id="pesanAkhir" style="display: none;">
             <h2>Gassin!!!!!</h2>
-            <p>Lo milih <span id="jawabanDipilih"></span>, Tar gw bawain</p>
+            <p><span id="jawabanDipilih"></span></p>
+            <h3>Respon Pilihan:</h3>
+            <ul id="listRespon"></ul> <!-- Menambahkan list untuk menampilkan semua respon -->
         </div>
     </div>
 
